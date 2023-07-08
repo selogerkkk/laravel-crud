@@ -19,13 +19,13 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <strong>Nome:</strong>
-                            <input type="text" class="form-control" placeholder="Input name..." name="name">
+                            <input type="text" class="form-control" placeholder="Inserir nome do item..." name="name">
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="form-group">
                             <strong>Quantidade:</strong>
-                            <input type="Number" class="form-control" placeholder="Quantidade" name="qtd">
+                            <input type="Number" class="form-control" placeholder="Inserir quantidade..." name="qtd">
                         </div>
                     </div>
                     <div class="col-md-12">

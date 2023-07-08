@@ -14,8 +14,8 @@
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
-                    <th>Qtd</th>
-                    <th>Options</th>
+                    <th>Quantidade</th>
+                    <th>Opções</th>
                 </tr>
             <tbody>
                 @forelse($products as $item)
@@ -25,7 +25,7 @@
                         <td>{{ $item->Qtd }}</td>
                         <td>
                             <a href="{{ route('products.edit', $item->id) }}" class="btn btn-secondary">Editar</a>
-                            <button class="btn btn-danger deleteButton" data-id="{{ $item->id }}">Delete</button>
+                            <button class="btn btn-danger deleteButton" data-id="{{ $item->id }}">Deletar</button>
                         </td>
                     </tr>
                 @empty
